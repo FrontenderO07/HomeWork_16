@@ -15,7 +15,7 @@ const Products = ({ products }) => {
             <Link to={`/products/${item.id}/details`} key={index}>
               <ul>
                 <li>
-                  <img src={item.url} alt="iphone" />
+                  <img src={item.url} alt="nike" />
                 </li>
                 <StyledButton>Detail</StyledButton>
               </ul>
@@ -54,12 +54,16 @@ const Container = styled.div`
     font-size: 20px;
     font-weight: 500;
   }
+  img {
+    width: 200px;
+    height: 200px;
+  }
 `;
 const StyledButton = styled.button`
   border-radius: 20px;
   width: 200px;
-  color: #eee7e7;
-  background-color: #047a55;
+  color: #ee2f2f;
+  background-color: teal;
   padding: 15px 25px;
   font-size: 20px;
   border: none;

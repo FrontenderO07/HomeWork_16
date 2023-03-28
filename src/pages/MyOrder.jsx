@@ -11,11 +11,13 @@ const MyOrder = () => {
   return (
     <Container>
       <p>
-        Next, we want to make the hamburger menu functional so that the link
-        appears when we click the button. To do that, we’ll need the React
-        usestate, useEffect, and useLocation Hooks. We’ll use useState to
-        represent the state of the button, while the useEffect and useLocation
-        Hooks will update the state whenever it changes. Let’s import the Hooks:
+        Nike, Inc. is an American multinational corporation that is engaged in
+        the design, development, manufacturing, and worldwide marketing and
+        sales of footwear, apparel, equipment, accessories, and services. The
+        company is headquartered near Beaverton, Oregon, in the Portland
+        metropolitan area. It is the world's largest supplier of athletic shoes
+        and apparel and a major manufacturer of sports equipment, with revenue
+        in excess of US$46 billion in its fiscal year 2022.
       </p>
       <StyledButton onClick={goToMyCart}>Go Back</StyledButton>
     </Container>
@@ -41,7 +43,7 @@ const Container = styled.div`
 const StyledButton = styled.button`
   border-radius: 20px;
   color: #eee7e7;
-  background-color: #047a55;
+  background-color: teal;
   padding: 15px 25px;
   font-size: 20px;
   border: none;

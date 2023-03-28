@@ -20,7 +20,7 @@ export const Deatils = ({ products }) => {
     <Container>
       <ul>
         <li>
-          <img src={newproDucts.url} alt="Iphone" />
+          <img src={newproDucts.url} alt="nike" />
           <p>{newproDucts.title}</p>
           <p>{`Price: ${newproDucts.price}`}</p>
           <StyledButton onClick={goToProducts}>Go Back</StyledButton>
@@ -36,7 +36,7 @@ const StyledButton = styled.button`
   border-radius: 20px;
   width: 200px;
   color: #eee7e7;
-  background-color: #047a55;
+  background-color: teal;
   padding: 15px 25px;
   font-size: 20px;
   border: none;

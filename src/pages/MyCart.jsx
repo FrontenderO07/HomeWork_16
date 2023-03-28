@@ -10,9 +10,13 @@ const MyCart = () => {
   return (
     <Container>
       <p>
-        Next, let’s add functionality so that when our screen gets smaller, the
-        links will disappear, showing only our hamburger menu. To do that, let’s
-        add a media query to our ButtonLink styles in our Navstyles.tsx:
+        Nike, Inc. is an American multinational corporation that is engaged in
+        the design, development, manufacturing, and worldwide marketing and
+        sales of footwear, apparel, equipment, accessories, and services. The
+        company is headquartered near Beaverton, Oregon, in the Portland
+        metropolitan area. It is the world's largest supplier of athletic shoes
+        and apparel and a major manufacturer of sports equipment, with revenue
+        in excess of US$46 billion in its fiscal year 2022.
       </p>
       <StyledButton onClick={goToProducts}>Go Back</StyledButton>
     </Container>
@@ -37,7 +41,7 @@ const Container = styled.div`
 const StyledButton = styled.button`
   border-radius: 20px;
   color: #eee7e7;
-  background-color: #047a55;
+  background-color: teal;
   padding: 15px 25px;
   font-size: 20px;
   border: none;
